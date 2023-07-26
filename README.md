@@ -50,21 +50,21 @@ shell.h - Header file with fuction prototypes
 
 - hsh - the executable to run the shell
 - builtin.c - Handles inbuilt commands
-- _strtok.c - tokenizes input commands
-- char_fun.c - manipute input characters
-- execute_file.c - Read Command from file
+- strtoken.c - tokenizes input commands
+- charFun.c - manipute input characters
+- exeFile.c - Read Command from file
 - execute.c - Handle builtin commands
-- finding_path.c - search in path for executable command
-- get_line.c - Read the stdin by user 
-- history.c - Fill file by user input
-- memory_management.c - Handles memory allocation
-- more_bul.c - history of user input
-- more_charfun.c - compare how much different
-- more_fun.c - copy of characters
+- pathFinder.c - search in path for executable command
+- getLine.c - Read the stdin by user 
+- hist.c - Fill file by user input
+- mem_manager.c - Handles memory allocation
+- moreBul.c - history of user input
+- moreCharfun.c - compare how much different
+- moreFun.c - copy of characters
 - output.c - handles stdout and error commands
-- parssing.c - handles user input to parse
+- parser.c - handles user input to parse
 - printer.c - prints unsigned int putchar
-- prompetfun.c - display shell prompt
+- prompter.c - display shell prompt
 - shell.c - handles arg count and arg value
 - shell.h - handles prototypes of all the functions used
 
